@@ -3,9 +3,9 @@
  * main - Entry point
  * Return: Always 0 (success)
  */
-int main()
-{char ch = 'a';
-for (ch = 'a'; ch <= 'z'; ch++)
+int main(void)
+{char ch = "a";
+for (ch = "a"; ch <= "z\n"; ch++)
 putchar(ch);
 return (0);
 }

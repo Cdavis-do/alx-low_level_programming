@@ -4,8 +4,8 @@
  * Return: Always 0 (success)
  */
 int main(void)
-{char ch = "a";
-for (ch = "a"; ch <= "z\n"; ch++)
+{char ch = 'a';
+for (ch = 'a'; ch <= 'z'; ch > '\n'; ch++)
 putchar(ch);
 return (0);
 }

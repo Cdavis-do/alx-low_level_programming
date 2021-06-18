@@ -1,4 +1,9 @@
 #include<stdio.h>
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (success)
+ */
 int main(void) /*main - Entry point*/
 {char Mystr[] = "\"Programming is like building a multilingual puzzle";
 puts(Mystr);

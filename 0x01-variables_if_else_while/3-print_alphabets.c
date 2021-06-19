@@ -11,7 +11,7 @@ for (ch = 'a'; ch <= 'z'; ch++)
 putchar(ch);
 for (gh = 'A'; gh <= 'Z'; gh++)
 putchar(gh);
-for (hd = '\n'; hd++)
+for (hd = '\n'; hd++;)
 putchar(hd);
 return (0);
 }

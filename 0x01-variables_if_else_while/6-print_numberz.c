@@ -5,8 +5,10 @@
  */
 int main(void)
 {int ct = '1';
-while (ct <= '9'; ct++)
-putchar(ct);
+while (ct <= '9')
+{putchar(ct);
+ct++;
+}
 putchar('\n');
 return (0);
 }

@@ -1,19 +1,17 @@
-#include<stdio.h>
-#include<conio.h>
+#include <stdio.h>
 /**
  * main - Entry point
  * Return: Always 0 (success)
  */
-void main(void)
-{
-clrscr();
-printf(“TypettttSize (bytes)”);
-printf(“nCharacterttt    %d”,sizeof(char));
-printf(“nIntegertttt    %d”,sizeof(int));
-printf(“nLong intttt    %d”,sizeof(long int));
-printf(“nFloattttt    %d”,sizeof(float));
-printf(“nDoubletttt    %d”,sizeof(double));
-printf(“nLong doublettt    %d”,sizeof(long double));
-getch();
-Return (0);
+int main(void)
+{int intType;
+float floatType;
+double doubleType;
+short shorttype;
+char charType;
+printf("Size of int: %zu bytes\n", sizeof(intType));
+printf("Size of float: %zu bytes\n", sizeof(floatType));
+printf("Size of double: %zu bytes\n", sizeof(doubleType));
+printf("Size of char: %zu byte\n", sizeof(charType));
+return 0;
 }

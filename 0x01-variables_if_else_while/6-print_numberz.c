@@ -4,11 +4,11 @@
  * Return: Always 0 (success)
  */
 int main(void)
-{int ct = '1';
+{int ct = '0';
 while (ct <= '9')
 {putchar(ct);
 ct++;
-putchar('\n');
 }
+putchar('\n');
 return (0);
 }

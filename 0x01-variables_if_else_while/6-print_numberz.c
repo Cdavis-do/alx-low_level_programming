@@ -8,7 +8,7 @@ int main(void)
 while (ct <= '9')
 {putchar(ct);
 ct++;
-}
 putchar('\n');
+}
 return (0);
 }

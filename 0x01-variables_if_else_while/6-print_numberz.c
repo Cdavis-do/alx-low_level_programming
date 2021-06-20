@@ -6,7 +6,7 @@
 int main()
 {int count=1;
 while (count <= 9)
-{putchar("%d ", count);
+{putchar(count);
 count++;
 }
 return (0);

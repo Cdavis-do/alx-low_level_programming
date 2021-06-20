@@ -8,10 +8,7 @@
  */
 int main(void)
 {int argc;
-char **argv;
-printf("CHAR_BIT    :   %d\n", CHAR_BIT);
-printf("CHAR_MAX    :   %d\n", CHAR_MAX);
-printf("CHAR_MIN    :   %d\n", CHAR_MIN);
+char **argv)
 printf("INT_MAX     :   %d\n", INT_MAX);
 printf("INT_MIN     :   %d\n", INT_MIN);
 printf("LONG_MAX    :   %ld\n", (long) LONG_MAX);

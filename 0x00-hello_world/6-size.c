@@ -1,20 +1,16 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <limits.h>
-#include <float.h>
+#include <stdio.h>      
 /**
  * main - Entry point
  * Return: Always 0 (success)
  */
 int main(void)
-{int argc;
-char **argv)
-printf("INT_MAX     :   %d\n", INT_MAX);
-printf("INT_MIN     :   %d\n", INT_MIN);
-printf("LONG_MAX    :   %ld\n", (long) LONG_MAX);
-printf("LONG_MIN    :   %ld\n", (long) LONG_MIN);
-printf("UINT_MAX    :   %u\n", (unsigned int) UINT_MAX);
-printf("ULONG_MAX   :   %lu\n", (unsigned long) ULONG_MAX);
-printf("USHRT_MAX   :   %d\n", (unsigned short) USHRT_MAX);
+{short a;
+long b;
+long long c;
+long double d;
+printf("size of short = %d bytes\n", sizeof(a));
+printf("size of long = %d bytes\n", sizeof(b));
+printf("size of long long = %d bytes\n", sizeof(c));
+printf("size of long double= %d bytes\n", sizeof(d));
 return (0);
 }

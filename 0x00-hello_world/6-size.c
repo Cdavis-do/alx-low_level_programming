@@ -1,18 +1,18 @@
-#include <stdio.h>      
+#include <stdio.h>
 /**
  * main - Entry point
  * Return: Always 0 (success)
  */
 int main(void)
 {char s;
-short a;
-long b;
-long long c;
-long double d;
+int a;
+long int b;
+long long int c;
+float d;
 printf("size of char = %d bytes\n", sizeof(s));
-printf("size of short = %d bytes\n", sizeof(a));
-printf("size of long = %d bytes\n", sizeof(b));
-printf("size of long long = %d bytes\n", sizeof(c));
-printf("size of long double= %d bytes\n", sizeof(d));
+printf("size of int = %d bytes\n", sizeof(a));
+printf("size of long int = %d bytes\n", sizeof(b));
+printf("size of long long int = %d bytes\n", sizeof(c));
+printf("size of float = %d bytes\n", sizeof(d));
 return (0);
 }

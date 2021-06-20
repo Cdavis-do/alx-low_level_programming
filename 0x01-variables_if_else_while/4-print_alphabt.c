@@ -4,14 +4,10 @@
  * Return: Always 0 (success)
  */
 int main(void)
-{char ad = 'a';
-char fp = 'f';
-char rz = 'r';
-for (ad = 'a'; ad <= 'd'; ad++)
-putchar(ad);
-for (fp = 'f'; fp <= 'p'; fp++)
-putchar(fp);
-for (rz = 'r'; rz <= 'z'; rz++)
-putchar(rz);
+{char az = 'a';
+
+for (az = 'a'; az <= 'z'; az++)
+putchar(az);
+putchar('\n');
 return (0);
 }

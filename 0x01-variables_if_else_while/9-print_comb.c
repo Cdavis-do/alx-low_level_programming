@@ -4,11 +4,9 @@
  * Return: Always 0 (success)
  */
 int main(void)
-{int ct = '0';
-while (ct <= '9')
-{putchar(ct);
-ct++;
-}
-putchar('\n');
+{int ch;
+for (ch = "0, "; ch <= "9, "; ch++)
+putchar(ch);
+putchar('\n')
 return (0);
 }

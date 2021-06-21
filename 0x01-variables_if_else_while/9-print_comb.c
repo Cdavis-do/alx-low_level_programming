@@ -4,9 +4,13 @@
  * Return: Always 0 (success)
  */
 int main(void)
-{int ch;
-for (ch = "0, "; ch <= "9, "; ch++)
+{int ch = 48;
+for (; ch <= 57; ch++)
 putchar(ch);
-putchar('\n')
+if (ch == 57)
+break;
+putchar(',');
+putchar(32);
+putchar('\n');
 return (0);
 }

@@ -1,16 +1,16 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main -  Entry point
  * Return: Always 0 (success)
  */
 int main(void)
-{int ch = 48;
-for (; ch <= 57; ch++)
-putchar(ch);
-if (ch == 57)
-break;
+{int ct = '0';
+while (ct <= '9')
+{putchar(ct);
+ct++;
 putchar(',');
-putchar(32);
+putchar('\ ');
+}
 putchar('\n');
 return (0);
 }

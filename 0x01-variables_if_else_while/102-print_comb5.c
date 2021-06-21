@@ -14,7 +14,7 @@ putchar(32);
 putchar((y / 10) + 48);
 putchar((y % 10) + 48);
 if (x != 98 || y != 99)
-putchar(',')
+putchar(',');
 putchar(32);
 putchar('\n');
 return (0);

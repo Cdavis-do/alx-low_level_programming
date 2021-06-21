@@ -9,7 +9,7 @@ while (ct <= '9')
 {putchar(ct);
 ct++;
 putchar(',');
-putchar('\ ');
+putchar(' ');
 }
 putchar('\n');
 return (0);

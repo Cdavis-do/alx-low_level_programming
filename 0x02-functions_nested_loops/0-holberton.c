@@ -4,6 +4,7 @@
  * Return: Always 0 (success)
  */
 #include "holberton.h"
+#include "_putchar"
 {putchar('H');
 putchar('o');
 putchar('l');

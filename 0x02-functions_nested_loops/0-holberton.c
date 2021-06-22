@@ -4,9 +4,7 @@
  * Return: Always 0 (success)
  */
 #include "holberton.h"
-{int ch;
-  for (ch = 'H'; ch;)
-putchar(ch);
+{putchar('H');
 putchar('\n');
 return (0);
 }

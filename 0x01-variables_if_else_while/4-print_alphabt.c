@@ -6,7 +6,7 @@
 int main(void)
 {char az = 'a';
 for (az = 'a'; az <= 'z'; az++)
-{a == 'e' || a == 'q')
+  {a = 'e'; a = 'q')
 continue;
 putchar(az);
 }

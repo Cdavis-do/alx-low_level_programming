@@ -4,13 +4,9 @@
  * Return: Always 0 (success)
  */
 #include "holberton.h"
-{int i = 0, j;
- while(i < 2)
-   {j = 0;
-       while(j < 2)
-	 {printf("Holberton");
-	 }
-     printf("\n");
-   }
- return (0);
+{char ch;
+for (ch ="Holberton")
+putchar(ch);
+printf("\n");
+return (0);
 }

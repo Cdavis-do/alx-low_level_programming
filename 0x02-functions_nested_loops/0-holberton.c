@@ -5,8 +5,7 @@
  */
 #include "holberton.h"
 {char ch;
-for (ch ="Holberton")
-putchar(ch);
-printf("\n");
+putchar("Holberton");
+putchar("\n");
 return (0);
 }

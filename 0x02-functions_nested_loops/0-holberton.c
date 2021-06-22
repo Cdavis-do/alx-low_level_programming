@@ -3,7 +3,7 @@
  * main - Entry point
  * Return: Always 0 (success)
  */
-int main(void)
+#include "holberton.h"
 {int = 0 , j;
  while(i<2)
    {j = 0

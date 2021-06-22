@@ -4,7 +4,7 @@
  * Return: Always 0 (success)
  */
 #include "holberton.h"
-{char ch;
+{int ch;
 putchar("Holberton");
 putchar("\n");
 return (0);
